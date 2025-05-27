@@ -1,0 +1,106 @@
+﻿  CppExp.cpp
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(153,48): error C2819: “Queue”类型没有重载成员“operator ->”
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(8,8):
+      参见“Queue”的声明
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(153,48):
+      是否改用“.”?
+  
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(153,49): error C2232: “->Queue::head”: 左操作数有“struct”类型，使用“.”
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(153,76): error C2819: “Queue”类型没有重载成员“operator ->”
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(8,8):
+      参见“Queue”的声明
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(153,76):
+      是否改用“.”?
+  
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(153,77): error C2232: “->Queue::tail”: 左操作数有“struct”类型，使用“.”
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(153,102): error C2819: “Queue”类型没有重载成员“operator ->”
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(8,8):
+      参见“Queue”的声明
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(153,102):
+      是否改用“.”?
+  
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(153,103): error C2232: “->Queue::max”: 左操作数有“struct”类型，使用“.”
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(159,55): error C2819: “Queue”类型没有重载成员“operator ->”
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(8,8):
+      参见“Queue”的声明
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(159,55):
+      是否改用“.”?
+  
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(159,56): error C2232: “->Queue::head”: 左操作数有“struct”类型，使用“.”
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(159,83): error C2819: “Queue”类型没有重载成员“operator ->”
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(8,8):
+      参见“Queue”的声明
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(159,83):
+      是否改用“.”?
+  
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(159,84): error C2232: “->Queue::tail”: 左操作数有“struct”类型，使用“.”
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(159,109): error C2819: “Queue”类型没有重载成员“operator ->”
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(8,8):
+      参见“Queue”的声明
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(159,109):
+      是否改用“.”?
+  
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(159,110): error C2232: “->Queue::max”: 左操作数有“struct”类型，使用“.”
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(170,52): error C2819: “Queue”类型没有重载成员“operator ->”
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(8,8):
+      参见“Queue”的声明
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(170,52):
+      是否改用“.”?
+  
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(170,53): error C2232: “->Queue::head”: 左操作数有“struct”类型，使用“.”
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(170,80): error C2819: “Queue”类型没有重载成员“operator ->”
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(8,8):
+      参见“Queue”的声明
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(170,80):
+      是否改用“.”?
+  
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(170,81): error C2232: “->Queue::tail”: 左操作数有“struct”类型，使用“.”
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(170,106): error C2819: “Queue”类型没有重载成员“operator ->”
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(8,8):
+      参见“Queue”的声明
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(170,106):
+      是否改用“.”?
+  
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(170,107): error C2232: “->Queue::max”: 左操作数有“struct”类型，使用“.”
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(174,55): error C2819: “Queue”类型没有重载成员“operator ->”
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(8,8):
+      参见“Queue”的声明
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(174,55):
+      是否改用“.”?
+  
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(174,56): error C2232: “->Queue::head”: 左操作数有“struct”类型，使用“.”
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(174,83): error C2819: “Queue”类型没有重载成员“operator ->”
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(8,8):
+      参见“Queue”的声明
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(174,83):
+      是否改用“.”?
+  
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(174,84): error C2232: “->Queue::tail”: 左操作数有“struct”类型，使用“.”
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(174,109): error C2819: “Queue”类型没有重载成员“operator ->”
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(8,8):
+      参见“Queue”的声明
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(174,109):
+      是否改用“.”?
+  
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(174,110): error C2232: “->Queue::max”: 左操作数有“struct”类型，使用“.”
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(178,55): error C2819: “Queue”类型没有重载成员“operator ->”
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(8,8):
+      参见“Queue”的声明
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(178,55):
+      是否改用“.”?
+  
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(178,56): error C2232: “->Queue::head”: 左操作数有“struct”类型，使用“.”
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(178,83): error C2819: “Queue”类型没有重载成员“operator ->”
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(8,8):
+      参见“Queue”的声明
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(178,83):
+      是否改用“.”?
+  
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(178,84): error C2232: “->Queue::tail”: 左操作数有“struct”类型，使用“.”
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(178,109): error C2819: “Queue”类型没有重载成员“operator ->”
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(8,8):
+      参见“Queue”的声明
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(178,109):
+      是否改用“.”?
+  
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\CppExp.cpp(178,110): error C2232: “->Queue::max”: 左操作数有“struct”类型，使用“.”
