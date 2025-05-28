@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\OneDrive\\Documents\\CS_Experiments\\CppExp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ADD3FA79-565D-4030-8C9A-A553D1BD63F4}|CppExp.vcxproj|C:\\Users\\LENOVO\\OneDrive\\Documents\\CS_Experiments\\CppExp\\CppExp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{ADD3FA79-565D-4030-8C9A-A553D1BD63F4}|CppExp.vcxproj|solutionrelative:CppExp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{ADD3FA79-565D-4030-8C9A-A553D1BD63F4}|CppExp.vcxproj|C:\\Users\\LENOVO\\OneDrive\\Documents\\CS_Experiments\\CppExp\\Epx_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ADD3FA79-565D-4030-8C9A-A553D1BD63F4}|CppExp.vcxproj|solutionrelative:Epx_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,12 +19,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CppExp.cpp",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Documents\\CS_Experiments\\CppExp\\CppExp.cpp",
-              "RelativeDocumentMoniker": "CppExp.cpp",
-              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Documents\\CS_Experiments\\CppExp\\CppExp.cpp*",
-              "RelativeToolTip": "CppExp.cpp*",
-              "ViewState": "AgIAADYAAAAAAAAAAAAEwKgAAAAAAAAAAAAAAA==",
+              "Title": "Epx_1.cpp",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Documents\\CS_Experiments\\CppExp\\Epx_1.cpp",
+              "RelativeDocumentMoniker": "Epx_1.cpp",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Documents\\CS_Experiments\\CppExp\\Epx_1.cpp",
+              "RelativeToolTip": "Epx_1.cpp",
+              "ViewState": "AgIAAC0AAAAAAAAAAIAzwD0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-27T10:45:47.698Z",
               "EditorCaption": ""
