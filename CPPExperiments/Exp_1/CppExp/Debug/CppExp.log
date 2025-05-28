@@ -1,0 +1,3 @@
+﻿  Exp_2.cpp
+Exp_2.obj : error LNK2005: _main 已经在 Epx_1.obj 中定义
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CppExp\Debug\CppExp.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
