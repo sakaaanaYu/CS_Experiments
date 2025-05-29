@@ -4,7 +4,10 @@ int main() {
 	//1. 初始化栈（m=5），入队4个元素，返回栈最大容量、栈实际元素个数，打印栈中元素
 	STACK stack(5);
 	stack.enter(10);
-	stack.enter(20, 30, 40); 
+	//stack.enter(20, 30, 40); 
+    stack.enter(20);
+    stack.enter(30);
+    stack.enter(40);
     char s[100] = { 0 };
     stack.print(s);
 	cout << "stack栈最大容量" << stack.size() << "，栈实际元素个数" << stack.number() << "栈中元素:" << s << "\n\n";
@@ -36,6 +39,4 @@ int main() {
     stack.print(s);
     cout << "清空栈stack：" << s << "\n";
 
-    //7. 销毁栈
-    stack.~stack();
 }

@@ -5,7 +5,7 @@ STACK::STACK(int m) : QUEUE(m), q(m) {} //初始化栈：最多存放2m-2个元素
 
 STACK::STACK(const STACK& s) : QUEUE(s), q(s.q) {} //用栈s深拷贝初始化栈
 
-STACK::STACK(STACK&& s) noexcept : QUEUE(move(s)), q(move(s.q)) {} //用栈s移动拷贝初始化栈
+STACK::STACK(STACK&& s) noexcept : QUEUE((QUEUE&&)s), q((QUEUE&&)s.q) {} //用栈s移动拷贝初始化栈
 
 int STACK::size() const { //返回栈的max容量,即2m  
     return QUEUE::size() * 2;  
@@ -27,12 +27,12 @@ STACK& STACK::enter(int e) { //将e入栈，并返回当前栈
     return *this;
 }
 
-STACK& STACK::enter(short n, ...) { //批量入栈
-    va_list args; va_start(args, n);
-    for (short i = 0; i < n; ++i) enter(va_arg(args, int));
-    va_end(args);
-    return *this;
-}
+//STACK& STACK::enter(short n, ...) { //批量入栈
+//    va_list args; va_start(args, n);
+//    for (short i = 0; i < n; ++i) enter(va_arg(args, int));
+//    va_end(args);
+//    return *this;
+//}
 
 STACK& STACK::leave(int& e) { //出栈到e，并返回当前栈
     if (QUEUE::number() == 0) { cerr << "Stack empty\n"; return *this; }

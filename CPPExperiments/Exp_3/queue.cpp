@@ -1,25 +1,20 @@
 #include "exp3.h"
 
-QUEUE::QUEUE(int m) : elems(new int[m]), max(m), head(0), tail(0) {
-	if (m <= 0) {
-		std::cerr << "Error: 队列大小必须大于0\n";
-		exit(EXIT_FAILURE);
-	}
+QUEUE::QUEUE(int m) : elems(new int[m]), max(m) {
+	head = tail = 0;
 }
 
-QUEUE::QUEUE(const QUEUE& q) : elems(new int[q.max]), max(q.max), head(q.head), tail(q.tail) {
-	int num = q.number();
-	if (num > q.max) {
-		std::cerr << "Error: 拷贝构造时元素数量超出容量\n";
-		num = q.max - 1;
-	}
-	for (int i = 0; i < num; ++i) {
-		elems[(head + i) % max] = q.elems[(q.head + i) % q.max];
-	}
+QUEUE::QUEUE(const QUEUE& q) : elems(new int[q.max]), max(q.max) {
+	head = q.head;
+	tail = q.tail;
+	for (int i = 0; i < max; i++)
+		*(elems + i) = q.elems[i];
 }
 
-QUEUE::QUEUE(QUEUE&& q) noexcept : elems(q.elems), max(q.max), head(q.head), tail(q.tail) {
-	q.head = q.tail = q.max;
+QUEUE::QUEUE(QUEUE&& q)noexcept : elems(q.elems), max(q.max), head(q.head), tail(q.tail) {
+	*(int**)&q.elems = 0;
+	*(int*)&q.max = 0;
+	q.head = q.tail = 0;
 }
 
 int QUEUE::size() const {
@@ -27,6 +22,7 @@ int QUEUE::size() const {
 }
 
 int QUEUE::number() const {
+	if (max <= 0) return 0;
 	return (tail - head + max) % max;
 }
 
@@ -35,8 +31,10 @@ QUEUE& QUEUE::enter(int e) {
 		std::cerr << "Error: 队列已满\n";
 		return *this;
 	}
-	elems[tail] = e;
-	tail = (tail + 1) % max;
+	else {
+		elems[tail] = e;
+		tail = (tail + 1) % max;
+	}
 	return *this;
 }
 
@@ -66,11 +64,14 @@ QUEUE& QUEUE::enter(short n, ...) {
 
 QUEUE& QUEUE::leave(int& e) {
 	if (head == tail) {
+		e = 0;
 		std::cerr << "队列为空\n";
 		return *this;
 	}
-	e = elems[head];
-	head = (head + 1) % max;
+	else {
+		e = elems[head];
+		head = (head + 1) % max;
+	}
 	return *this;
 }
 
@@ -92,8 +93,9 @@ QUEUE& QUEUE::leave(int& n, int* buf) {
 	else {
 		actualSize = number() < n ? number() : n;
 		for (int i = 0; i < actualSize; i++) {
-			if (elems[head])
-				leave(buf[i]);
+			if (head == tail) break;  // 队列为空
+			buf[i] = elems[head];
+			head = (head + 1) % max;
 		}
 		n = actualSize;
 		return *this;
@@ -103,30 +105,32 @@ QUEUE& QUEUE::leave(int& n, int* buf) {
 }
 
 QUEUE& QUEUE::operator=(const QUEUE& q) {
-	if (this != &q) {
-		if (max != q.max) {
-			std::cerr << "Error: 无法赋值不同容量的队列\n";
-			return *this;
-		}
-		head = q.head;
-		tail = q.tail;
-		for (int i = 0; i < q.number(); ++i) {
-			elems[(head + i) % max] = q.elems[(q.head + i) % q.max];
-		}
-	}
+	if (this == &q)
+		return *this;
+	if (elems)
+		delete[] elems;
+
+	*(int*)&(this->max) = q.max;
+	*(int**)&(this->elems) = new int[q.max];
+	int* elems = q.elems;
+	head = q.head;
+	tail = q.tail;
+	memcpy(this->elems, q.elems, q.max * sizeof(int));
 	return *this;
 }
 
 QUEUE& QUEUE::operator=(QUEUE&& q) noexcept {
-	*(int**)&elems = q.elems;
-	*(int*)&max = q.max;
+	if (this == &q)
+		return *this;
+	if (elems)
+		delete[] elems;
 	head = q.head;
 	tail = q.tail;
-
-	*(int**)&q.elems = nullptr;
+	*(int*)&max = q.max;
+	*(int**)&elems = q.elems;
+	*(int**)&q.elems = 0;
 	*(int*)&q.max = 0;
 	q.head = q.tail = 0;
-
 	return *this;
 }
 
@@ -134,7 +138,7 @@ QUEUE& QUEUE::queCat(const QUEUE& q) {
 	int p_num = this->number();
 	int q_num = q.number();
 	int free_space = (this->head - this->tail - 1 + this->max) % this->max;
-	int new_max = p_num + q_num + 1;
+	int new_max = p_num + q_num + 2;
 
 	if (q_num > free_space) {
 		int* new_elems = new int[new_max];
