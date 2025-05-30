@@ -1,0 +1,33 @@
+﻿  Exp_5.cpp
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_5\Exp_5.cpp(121,36): error C2678: 二进制“[”: 没有找到接受“const MAT<int>”类型的左操作数的运算符(或没有可接受的转换)
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_5\Exp_5.cpp(28,19):
+      可能是“T *const MAT<T>::operator [](int)”
+          with
+          [
+              T=int
+          ]
+          C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_5\Exp_5.cpp(121,36):
+          “T *const MAT<T>::operator [](int)”: 不能将“this”指针从“const MAT<int>”转换为“MAT<int> &”
+          with
+          [
+              T=int
+          ]
+              C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_5\Exp_5.cpp(121,36):
+              转换丢失限定符
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_5\Exp_5.cpp(121,36):
+      尝试匹配参数列表“(const MAT<int>, int)”时
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_5\Exp_5.cpp(121,36):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_5\Exp_5.cpp(132,13):
+          查看对正在编译的 类 模板 实例化“MAT<int>”的引用
+          C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_5\Exp_5.cpp(116,16):
+          在编译 类 模板 成员函数“char *MAT<int>::print(char *) noexcept const”时
+              C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_5\Exp_5.cpp(136,9):
+              请参阅 "main" 中对 "MAT<int>::print" 的第一个引用
+  
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_5\Exp_5.cpp(121,28): warning C4473: “sprintf”: 没有为格式字符串传递足够的参数
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_5\Exp_5.cpp(121,28):
+      占位符和其参数预计 1 可变参数，但提供的却是 0 参数
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_5\Exp_5.cpp(121,28):
+      缺失的可变参数 1 为格式字符串“%d”所需
+  
