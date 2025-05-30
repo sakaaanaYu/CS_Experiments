@@ -1,0 +1,32 @@
+﻿  main.cpp
+  queue.cpp
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_4\main.cpp(11,34): warning C4552: ”+“: 未使用表达式结果
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_4\main.cpp(13,26): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_4\main.cpp(21,9): error C2086: “int e”: 重定义
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_4\main.cpp(8,9):
+      参见“e”的声明
+  
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_4\main.cpp(22,11): error C2039: "leave": 不是 "STACK" 的成员
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_4\exp4.h(28,7):
+      参见“STACK”的声明
+  
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_4\main.cpp(28,11): error C2039: "leave": 不是 "STACK" 的成员
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_4\exp4.h(28,7):
+      参见“STACK”的声明
+  
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_4\queue.cpp(21,12): error C2382: “QUEUE::size”: 重定义；不同的异常规范
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_4\exp4.h(15,14):
+      参见“QUEUE::size”的声明
+  
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_4\queue.cpp(111,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_4\queue.cpp(116,3): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_4\queue.cpp(120,13): error C2382: “QUEUE::clear”: 重定义；不同的异常规范
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_4\exp4.h(24,15):
+      参见“QUEUE::clear”的声明
+  
+  stack.cpp
+C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_4\stack.cpp(88,13): error C2382: “STACK::clear”: 重定义；不同的异常规范
+      C:\Users\LENOVO\OneDrive\Documents\CS_Experiments\CPPExperiments\Exp_4\exp4.h(43,7):
+      参见“STACK::clear”的声明
+  
+  正在生成代码...

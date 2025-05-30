@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\OneDrive\\Documents\\CS_Experiments\\CPPExperiments\\Exp_4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B87D01AB-0DB6-4D67-8197-1820C66DEB2F}|Exp_4.vcxproj|C:\\Users\\LENOVO\\OneDrive\\Documents\\CS_Experiments\\CPPExperiments\\Exp_4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B87D01AB-0DB6-4D67-8197-1820C66DEB2F}|Exp_4.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B87D01AB-0DB6-4D67-8197-1820C66DEB2F}|Exp_4.vcxproj|C:\\Users\\LENOVO\\OneDrive\\Documents\\CS_Experiments\\CPPExperiments\\Exp_4\\exp4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B87D01AB-0DB6-4D67-8197-1820C66DEB2F}|Exp_4.vcxproj|solutionrelative:exp4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B87D01AB-0DB6-4D67-8197-1820C66DEB2F}|Exp_4.vcxproj|C:\\Users\\LENOVO\\OneDrive\\Documents\\CS_Experiments\\CPPExperiments\\Exp_4\\queue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B87D01AB-0DB6-4D67-8197-1820C66DEB2F}|Exp_4.vcxproj|solutionrelative:queue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B87D01AB-0DB6-4D67-8197-1820C66DEB2F}|Exp_4.vcxproj|C:\\Users\\LENOVO\\OneDrive\\Documents\\CS_Experiments\\CPPExperiments\\Exp_4\\stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B87D01AB-0DB6-4D67-8197-1820C66DEB2F}|Exp_4.vcxproj|solutionrelative:stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Documents\\CS_Experiments\\CPPExperiments\\Exp_4\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Documents\\CS_Experiments\\CPPExperiments\\Exp_4\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwCMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-29T18:08:01.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "queue.cpp",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Documents\\CS_Experiments\\CPPExperiments\\Exp_4\\queue.cpp",
+              "RelativeDocumentMoniker": "queue.cpp",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Documents\\CS_Experiments\\CPPExperiments\\Exp_4\\queue.cpp",
+              "RelativeToolTip": "queue.cpp",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAAHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-29T18:10:32.022Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "c43bf330-4a30-43e8-86fa-71735ec55b8b",
+        "Display": 0,
+        "X": 103,
+        "Y": 2,
+        "Width": 865,
+        "Height": 947,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "stack.cpp",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Documents\\CS_Experiments\\CPPExperiments\\Exp_4\\stack.cpp",
+              "RelativeDocumentMoniker": "stack.cpp",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Documents\\CS_Experiments\\CPPExperiments\\Exp_4\\stack.cpp",
+              "RelativeToolTip": "stack.cpp",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-29T18:20:48.353Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "0e643c3c-b5db-400a-b389-3da7c0617d47",
+        "Display": 0,
+        "X": 939,
+        "Y": 199,
+        "Width": 865,
+        "Height": 947,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "exp4.h",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Documents\\CS_Experiments\\CPPExperiments\\Exp_4\\exp4.h",
+              "RelativeDocumentMoniker": "exp4.h",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Documents\\CS_Experiments\\CPPExperiments\\Exp_4\\exp4.h",
+              "RelativeToolTip": "exp4.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-29T18:09:42.541Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
